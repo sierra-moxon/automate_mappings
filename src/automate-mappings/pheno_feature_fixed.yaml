@@ -1,0 +1,84 @@
+
+elt.name phenotypic feature
+result...
+name: phenotypic feature
+id_prefixes:
+- HP
+- EFO
+- NCIT
+- UMLS
+- MEDDRA
+- MP
+- ZP
+- UPHENO
+- APO
+- FBcv
+- WBPhenotype
+- SNOMEDCT
+- MESH
+- XPO
+- FYPO
+- TO
+description: A combination of entity and quality that makes up a phenotyping statement.
+  An observable characteristic of an  individual resulting from the interaction of
+  its genotype with its molecular and physical environment.
+examples:
+- value: MP:0001262
+  description: decreased body weight
+in_subset:
+- model_organism_database
+from_schema: https://w3id.org/biolink/biolink-model
+aliases:
+- sign
+- symptom
+- phenotype
+- trait
+- endophenotype
+exact_mappings:
+- UPHENO:0001001
+- SIO:010056
+- WIKIDATA:Q104053
+- UMLS:C4021819
+- NCIT:C16977
+- SNOMEDCT:8116006
+- MESH:D010641
+- GAZ:00253405
+- NCIT:C53458
+- GSSO:000494
+- OGMS:0000024
+- TRAK:0000092
+- NCIT:C4876
+- ExO:0000080
+- OGMS:0000020
+- GSSO:000495
+- SYMP:0000462
+- MI:2261
+- HIO:0000003
+- HP:0000001
+- ExO:0000101
+- OMIT:0011629
+- OGMS:0000023
+- PHIPO:0000505
+- FBcv:0001347
+- SBO:0000358
+- FYPO:0000001
+- PATO:0000001
+- TRAK:0000133
+- NCIT:C85496
+narrow_mappings:
+- STY:T184
+- WIKIDATA:Q169872
+- WIKIDATA:Q25203551
+- ZP:00000000
+- FBcv:0001347
+- HP:0000118
+- MP:0000001
+- WBPhenotype:0000886
+- XPO:00000000
+- FYPO:0000001
+- APO:0000017
+- TO:0000387
+broad_mappings:
+- BFO:0000019
+- PATO:0000001
+is_a: disease or phenotypic feature
